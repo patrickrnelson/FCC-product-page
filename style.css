@@ -43,7 +43,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: black;
+  color: #222222;
   text-decoration: none;
   font-size: 28px;
   font-family: Montserrat, sans-serif;
@@ -52,6 +52,7 @@ nav ul li a {
 
 p {
   font-family: sans-serif;
+  color: #222222;
 }
 
 #hero {
@@ -70,6 +71,7 @@ h1 {
   font-size: 65px;
   font-family: 'pacifico', cursive, sans-serif;
   margin-bottom: 0px;
+  color: #222222;
 }
 
 hr {
@@ -82,6 +84,7 @@ h2 {
   font-size: 35px;
   font-family: 'pacifico', cursive, sans-serif;
   margin-top: 0px;
+  color: #222222;
 }
 
 #form {
@@ -164,12 +167,12 @@ h2 {
 }
 
 .product-card {
-  border: 2px solid black;
   padding: 0 8px 8px 8px;
   width: 22%;
   margin-right: 8.5%;
-  background-color: #ffeaed;
+  background-color: white;
   margin-bottom: 5em;
+  border-radius: 10px;
 }
 
 #first-product {
@@ -186,6 +189,8 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  border-radius: 6px;
 }
 
 .product-price {
