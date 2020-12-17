@@ -49,21 +49,23 @@ nav ul li {
 
 
 nav ul li a {
-  color: #222222;
+  color: #121517;
   text-decoration: none;
-  font-size: 28px;
-  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-family: oswald, sans-serif;
+  font-weight: light;
+  text-transform: uppercase;
   display: inline-block;
-  padding-top: 20px;
+  padding: 25px 0;
 }
 
 li a:hover {
-  border-bottom: 1.5px solid pink;
+  border-bottom: 3px solid pink;
   padding-bottom: 5px;
 }
 
 p {
-  font-family: sans-serif;
+  font-family: oswald, sans-serif;
   color: #222222;
 }
 
@@ -80,7 +82,7 @@ p {
 
 h1 {
   text-align: center;
-  font-size: 65px;
+  font-size: 58px;
   font-family: 'pacifico', cursive, sans-serif;
   margin-bottom: 0px;
   color: #222222;
@@ -94,7 +96,7 @@ hr {
 h2 {
   text-align: center;
   font-size: 35px;
-  font-family: sans-serif;
+  font-family: oswald, sans-serif;
   margin-top: 0px;
   color: #222222;
 }
@@ -140,7 +142,7 @@ h2 {
 
 .feature-icon {
   height: 4.5em;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
 .feature-text {
@@ -155,9 +157,10 @@ h2 {
   font-size: 22px;
 }
 
-.feature-desc {
-  font-family: sans-serif;
+p.feature-desc {
+  font-family: oswald, sans-serif;
   margin-top: 0;
+  font-size: 18px;
 }
 
 #video {
@@ -209,8 +212,9 @@ h2 {
   font-family: sans-serif;
 }
 
-.product-desc {
+p.product-desc {
   margin-left: 16px;
+  font-size: 18px;
 }
 
 .btn {
