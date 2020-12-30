@@ -23,7 +23,7 @@ header {
 .logo-div {
   height: 5em;
   width: 10%;
-  background-color: pink;
+  background-color: #ffd6dc;
 }
 
 #header-img {
@@ -33,7 +33,7 @@ header {
 nav {
   width: 90%;
   height: 5em;
-  background-color: pink;
+  background-color: #ffd6dc;
 }
 
 nav ul {
@@ -261,7 +261,7 @@ p.feature-desc {
 }
 
 .product-title {
-  background-color: #FFEBEE;
+  background-color: pink;
   height: 25%;
   font-family: 'pacifico', cursive, sans-serif;
   font-size: 22px;
@@ -295,23 +295,22 @@ p.product-desc {
   width: 50%
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 900px) {
+  #product-pack {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .product-card {
-    width: 27%;
-    margin-right: 4.75%;
+    padding: 0;
+    width: 50%;
+    background-color: white;
+    margin-bottom: 5em;
+    border-radius: 10px;
   }
-  .product-title {
-    font-size: 18px;
-  }
-  .product-price {
-    font-size: 16px;
-  }
-  .product-desc {
-    font-size: 14px;
-  }
-  #first-product {
-      margin-left: 4.75%;
-    }
+
 }
 
 footer {
