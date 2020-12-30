@@ -192,10 +192,18 @@ h2 {
   padding-bottom: 5em;
 }
 
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .feature-pack {
   display: flex;
-  margin: 0% 15% 0% 15%;
-
+  justify-content: flex-start;
+  width: 50%;
 }
 
 .feature-icon {
@@ -236,7 +244,7 @@ p.feature-desc {
 
 #product-pack {
   display: flex;
-  width: 1300px;
+  justify-content: space-around;
 }
 
 .product-card {
@@ -253,7 +261,7 @@ p.feature-desc {
 }
 
 .product-title {
-  background-color: #fcf4e9;
+  background-color: #FFEBEE;
   height: 25%;
   font-family: 'pacifico', cursive, sans-serif;
   font-size: 22px;
@@ -277,7 +285,7 @@ p.product-desc {
 }
 
 .btn {
-  background-color: gray;
+  background-color: #7e7f9a;
   color: white;
   font-weight: bold;
   font-familt: sans-serif;
