@@ -110,7 +110,7 @@ h2 {
   width: 30%;
   padding-left: 0;
   position: relative;
-  height: 50px;
+  height: 60px;
   margin-top: 15px;
   overflow: hidden;
 }
@@ -135,7 +135,7 @@ h2 {
   width: 100%;
   pointer-events: none;
   border-bottom: 1px solid black;
-  font-family: sans-serif;
+  font-family: oswald, sans-serif;
   font-size: 19px;
 
   color: black;
@@ -213,7 +213,6 @@ h2 {
 
 .feature-text {
   margin-left: 4%;
-
 }
 
 .feature-title {
