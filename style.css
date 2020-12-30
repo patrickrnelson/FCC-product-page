@@ -6,7 +6,7 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   width: 100%;
-  background-color: pink;
+  background-color: #fcf4e9;
 }
 
 header {
@@ -23,24 +23,23 @@ header {
 .logo-div {
   height: 5em;
   width: 10%;
-  background-color: #fcf4e9;
+  background-color: pink;
 }
 
 #header-img {
   height: 5em;
-
 }
 
 nav {
-  width: 100%;
+  width: 90%;
   height: 5em;
-  background-color: #fcf4e9;
+  background-color: pink;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 9%;
   text-align: center;
 }
 
@@ -65,7 +64,7 @@ nav ul li a {
 }
 
 li a:hover {
-  border-bottom: 3px solid pink;
+  border-bottom: 3px solid #7e7f9a;
   padding-bottom: 5px;
 }
 
@@ -112,27 +111,34 @@ h2 {
   padding-left: 0;
   position: relative;
   height: 50px;
-  margin-top: 25px;
+  margin-top: 15px;
   overflow: hidden;
 }
 
 .form input {
   width: 100%;
   height: 100%;
-  color: blue;
+  color: black;
+  font-size: 17px;
   padding-top: 20px;
+  padding-left: 8px;
   border: none;
   outline: none;
+  background-color: #fcf4e9;
 }
 
 .form label {
   position: absolute;
   bottom: 0px;
-  left: 34%;
+  left: 0;
   height: 100%;
   width: 100%;
   pointer-events: none;
   border-bottom: 1px solid black;
+  font-family: sans-serif;
+  font-size: 19px;
+
+  color: black;
 }
 
 /* Can't add "after" to inputs. That's why were messing with the label */
@@ -141,10 +147,10 @@ h2 {
   position: absolute;
   height: 100%;
   width: 100%;
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid black;
   left: 0px;
   bottom: -1px;
-  transform: translateX(-140%);
+  transform: translateX(-100%);
   transition: transform 0.3s ease;
 }
 
@@ -159,7 +165,7 @@ h2 {
 .form input:valid + .label-email .content-email {
   transform: translateY(-150%);
   font-size: 14px;
-  color: gray;
+  color: #6B6D76;
 }
 
 .form input:focus + .label-email::after,
@@ -170,7 +176,7 @@ h2 {
 #submit {
   margin-top: 1em;
   width: 20%;
-  background-color: gray;
+  background-color: #7e7f9a;
   border: 0px solid black;
   font-size: 14px;
   border-radius: 20px;
