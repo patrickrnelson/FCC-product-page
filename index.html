@@ -9,8 +9,6 @@
   </head>
 
   <body>
-    <div id="page-wrapper">
-
       <header>
 
         <div class="logo-div">
@@ -38,10 +36,19 @@
         <h1>Willow's Bones</h1>
 
         <h2>Quality, synthetic bones for the bestest boys and girls</h2>
+
         <hr>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-          <input type="submit" id="submit" value="Learn More" class="btn">
+
+        <div class="form">
+          <form id="email-form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email-input" name="email" autocomplete="off" required />
+            <label for="email" class="label-email">
+              <span class="content-email">Email</span>
+            </label>
+        </div>
+
+        <input type="submit" id="submit" value="Learn More" class="btn">
+
       </section>
 
       <section class="sections" id="features">
@@ -134,9 +141,6 @@
        <footer>
 
       </footer>
-
-    </div>
-
 
   </body>
 
