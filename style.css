@@ -80,7 +80,7 @@ p {
   justify-content: space-around;
   margin-top: 5%;
   padding-top: 5px;
-  margin-bottom: 1.5em;
+  margin-bottom: 5em;
 
 }
 
@@ -90,11 +90,6 @@ h1 {
   font-family: 'pacifico', cursive, sans-serif;
   margin-bottom: 0px;
   color: #222222;
-}
-
-hr {
-  border: 0.5px solid black;
-  margin: 0 10% 0 10%;
 }
 
 h2 {
@@ -111,7 +106,7 @@ h2 {
   padding-left: 0;
   position: relative;
   height: 60px;
-  margin-top: 15px;
+  margin-top: 5px;
   overflow: hidden;
 }
 
